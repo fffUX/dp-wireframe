@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  background: #000;
+}
+h1, h2, h3{
+  font-family: 'Playfair Display', serif;
+}
+.mobile{
+  max-width: 385px;
+  margin: 20px auto;
+  border: 10px solid #666;
+  border-radius: 20px;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+}
+.discover{
+  background: #fff;
+}
+.discover .title{
+  padding: 10px 20px;
+  text-align: center;
+}
+.discover .title h2{
+  margin-bottom: 10px;
+}
+.discover .title p{
+  margin-top: 0;
+}
+.discover nav{
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+.discover nav .selected{
+  background: #ccc;
+  color: #fff;
+}
+.discover nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(6, 160px);
+  overflow-y: scroll;
+}
+.discover nav ul li{
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px 8px 8px 8px;
+  margin: 4px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+.discover nav ul li:first-child{
+  margin-left: 16px;
+}
+.box{
+  padding-bottom: 40px;
+  display: none;
+}
+.box.selected{
+  display: block;
+}
+.box ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 240px);
+  overflow-y: scroll;
+}
+.box ul li{
+  margin: 0 16px;
+  margin-right: 4px;
+}
