@@ -82,3 +82,10 @@ img{
   margin: 0 16px;
   margin-right: 4px;
 }
+
+@media screen and (max-width: 480px) {
+  .mobile{
+    margin: 0;
+    border: none;
+  }
+}
